@@ -6,6 +6,10 @@
 .gridItem {
     flex: 1 0 6.25%;
     box-sizing: border-box;
-    border: 1px solid black;
     aspect-ratio: 1/1;
+    transition: background-color 3000ms ease 100ms;
+}
+
+.gridItem:hover {
+    transition: background-color 200ms ease;
 }
