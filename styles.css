@@ -4,10 +4,9 @@
 }
 
 .gridItem {
-    flex: 1 0 6.25%;
     box-sizing: border-box;
     aspect-ratio: 1/1;
-    transition: background-color 3000ms ease 100ms;
+    transition: background-color 3000ms ease;
 }
 
 .gridItem:hover {
